@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9094792807752863857
+--- !u!1 &6920784529963169899
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,26 +8,26 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9032946475519616140}
-  - component: {fileID: 4289901935867405452}
-  - component: {fileID: 6204120518468237878}
-  - component: {fileID: 7074964427761622308}
-  - component: {fileID: 1653030447710156237}
-  - component: {fileID: 5945524448090650865}
+  - component: {fileID: 8316905230131720902}
+  - component: {fileID: 5523402675999720167}
+  - component: {fileID: 1804390303936653902}
+  - component: {fileID: 3032413687281210225}
+  - component: {fileID: 7527262603217403374}
+  - component: {fileID: -7171475216869642669}
   m_Layer: 0
-  m_Name: Bloque
+  m_Name: Bloque_Piedra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9032946475519616140
+--- !u!4 &8316905230131720902
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9094792807752863857}
+  m_GameObject: {fileID: 6920784529963169899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 1, z: 4}
@@ -35,21 +35,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4289901935867405452
+--- !u!33 &5523402675999720167
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9094792807752863857}
+  m_GameObject: {fileID: 6920784529963169899}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6204120518468237878
+--- !u!23 &1804390303936653902
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9094792807752863857}
+  m_GameObject: {fileID: 6920784529963169899}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad950cb93a3b02e4db823b88f27d1f11, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,26 +84,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7074964427761622308
+--- !u!65 &3032413687281210225
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9094792807752863857}
+  m_GameObject: {fileID: 6920784529963169899}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1653030447710156237
+--- !u!54 &7527262603217403374
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9094792807752863857}
+  m_GameObject: {fileID: 6920784529963169899}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -113,16 +113,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 3
---- !u!114 &5945524448090650865
+--- !u!114 &-7171475216869642669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9094792807752863857}
+  m_GameObject: {fileID: 6920784529963169899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 591281f0dc2dcd842abecc491330c69f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ef7ba68f71f29b46a9ab4260faa62c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resistencia: 1
